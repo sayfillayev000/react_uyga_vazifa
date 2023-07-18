@@ -1,0 +1,31 @@
+.navbar {
+//   background-color: #f7f8fc;
+  width: 1122px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 36px 23px 58px 30px;
+}
+.header {
+  display: flex;
+  align-items: center;
+}
+.search {
+  margin-right: 24px;
+}
+.notifications,
+.line {
+  margin-right: 32px;
+}
+h2 {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px; 
+  letter-spacing: 0.2px;
+}
+.img__user {
+  border-radius: 50%;
+  margin-left: 10px;
+}
