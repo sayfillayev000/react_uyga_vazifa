@@ -2,6 +2,7 @@ import Sidebar from "../containers/Sidebar";
 import Main from "../containers/Main";
 import Navbar from "../containers/Navbar";
 import './App.scss'
+import Overview from "../containers/Overview";
 
 const App = () => {
   return (
@@ -9,7 +10,8 @@ const App = () => {
       <Sidebar />
       <div className="content">
         <Navbar/>
-        <Main />
+        {/* <Main /> */}
+        <Overview/>
       </div>
     </div>
   );

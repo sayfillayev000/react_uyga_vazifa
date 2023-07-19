@@ -1,4 +1,4 @@
-import TomCruise, { ChrisEvans, ChristianBale, HenryCavil, MattDamon, RobertDowney, SamSmith, SteveRogers } from "../assets/user";
+import { ChrisEvans, ChristianBale, HenryCavil, MattDamon, RobertDowney, SamSmith, SteveRogers } from "../assets/user";
 import Users from "../components/users";
 import "./Main.scss";
 
@@ -42,7 +42,6 @@ const Main = () => {
         <h5>Date</h5>
         <h5>Priority</h5>
       </div>
-      <Users name={<MattDamon />} />
       <Users name={<MattDamon />} />
       <Users name={<RobertDowney />} />
       <Users name={<ChristianBale />} />
